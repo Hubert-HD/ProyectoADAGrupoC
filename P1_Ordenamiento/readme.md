@@ -10,7 +10,7 @@ El arreglo se divide lógicamente en una parte ordenada y una no ordenada. El al
 Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
-| O($n^2$) | O($n^2$)| O(n) |
+| O(n^2) | O(n^2)| O(n) |
 
 Ejemplo:
 ![insertionsort-example](gif/insertionsort-example.gif)
@@ -19,7 +19,7 @@ Los elementos del arreglo son almacenados en un montículo, para luego extraer e
 Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
-| O($nlogn$) | O($nlogn$)| O($nlogn$) |
+| O(nlogn) | O(nlogn)| O(nlogn) |
 
 Ejemplo:
 ![heapsort-example](gif/heapsort-example.gif)
@@ -28,7 +28,7 @@ Se divide el arreglo en dos partes alrededor de un elemento de pivote selecciona
 Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
-| O($$n^2$$) | O($nlogn$)| O($nlogn$) |
+| O(n^2) | O(nlogn)| O(nlogn) |
 
 Ejemplo:
 ![quicksort-example](gif/Quicksort-example.gif)
