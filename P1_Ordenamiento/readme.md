@@ -28,10 +28,10 @@ Se divide el arreglo en dos partes alrededor de un elemento de pivote selecciona
 Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
-| O($n^2$) | O($nlogn$)| O($nlogn$) |
+| O($$n^2$$) | O($nlogn$)| O($nlogn$) |
 
 Ejemplo:
-![quicksort-example](gif/quicksort-example.gif)
+![quicksort-example](gif/Quicksort-example.gif)
 ###### Nota: 
 * Se puede optimizar el algoritmo quicksort seleccioando un pivote de forma aletatoria 
 * Además otra optimización sugerida por Sedgewick para asegurarse de que se use como máximo un espacio $O(log n)$, es seleccionar un umbral, que cuando el número de elementos del arreglo este por debajo de este, se cambie a un algoritmo de ordenación no recursivo, como el insertionsort. El umbral va a depender de los detalles de la implementacion aunque generalmente es 10.
