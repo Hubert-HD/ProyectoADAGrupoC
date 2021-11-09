@@ -11,6 +11,7 @@ Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
 | O($n^2$) | O($n^2$)| O(n) |
+
 Ejemplo:
 ![insertionsort-example](gif/insertionsort-example.gif)
 #### HeapSort
@@ -19,6 +20,7 @@ Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
 | O($nlogn$) | O($nlogn$)| O($nlogn$) |
+
 Ejemplo:
 ![heapsort-example](gif/heapsort-example.gif)
 #### QuickSort
@@ -27,6 +29,7 @@ Complejidad:
 | Peor caso | Caso medio | Mejor caso |
 |-|-|-|
 | O($n^2$) | O($nlogn$)| O($nlogn$) |
+
 Ejemplo:
 ![quicksort-example](gif/quicksort-example.gif)
 ###### Nota: 
